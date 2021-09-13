@@ -1,0 +1,125 @@
+html, body, #page {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Merriweather", serif;
+}
+
+.big-container {
+  margin: 0 auto;
+}
+
+.header-content {
+  height: 10%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.header-content .nav {
+  max-width: 1080px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 0 auto;
+  text-align: left;
+  vertical-align: middle;
+}
+.header-content .nav a {
+  color: #0f0f0f;
+  font-family: "Dosis", serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: center;
+  text-decoration: none;
+}
+.header-content .nav #mainImage {
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 72px;
+  margin-top: 10px;
+}
+.header-content .nav .rightNav {
+  float: right;
+  margin-top: 4vh;
+  vertical-align: center;
+}
+
+.titleHolder {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background: url("https://mistaomega.github.io/HPIV/img/background-min.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.titleHolder #title, .titleHolder #subtitle {
+  text-align: center;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  vertical-align: middle;
+  color: aqua;
+  text-shadow: 2px 2px black;
+}
+.titleHolder #title {
+  font-size: 4vw;
+}
+.titleHolder #subtitle {
+  font-size: 2vw;
+}
+
+.body-content {
+  background-color: white;
+  margin: 0 10%;
+}
+.body-content .articleLayout {
+  display: grid;
+}
+.body-content .articleLayout p {
+  font-size: 18px;
+}
+.body-content .articleLayout li {
+  font-size: 22px;
+}
+.body-content .articleLayout h2 {
+  font-family: "Dosis", serif;
+}
+.body-content .articleLayout .supportImageContainer {
+  width: 100%;
+  display: flex;
+  flex-basis: 10%;
+}
+.body-content #committeeheader {
+  font-family: "Dosis", serif;
+}
+.body-content .committeeHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.body-content .committeeHolder .committeeMember {
+  flex: 1;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .body-content .committeeHolder .committeeMember {
+    flex-basis: 100%;
+  }
+}
+.body-content .committeeHolder .committeeMember img {
+  width: 150px;
+  height: 160px;
+}
+
+/*# sourceMappingURL=main.css.map */
