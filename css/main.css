@@ -14,7 +14,7 @@ p {
 }
 
 .header-content {
-  height: 10%;
+  height: 16%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -41,9 +41,9 @@ p {
 .header-content .nav #mainImage {
   height: auto;
   width: auto;
-  max-height: 72px;
-  max-width: 72px;
-  margin-top: 10px;
+  max-height: 300px;
+  max-width: 400px;
+  margin-top: 0px;
 }
 .header-content .nav .rightNav {
   float: right;
@@ -52,7 +52,7 @@ p {
 }
 
 .titleHolder {
-  height: 40%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
